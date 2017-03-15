@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="1"
+        android:title="添加"/>
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="2"
+        android:title="删除"/>
+    <item
+        android:id="@+id/listview"
+        android:orderInCategory="3"
+        android:title="listview"/>
+    <item
+        android:id="@+id/gridview"
+        android:orderInCategory="4"
+        android:title="gridview"/>
+    <item
+        android:id="@+id/staggeredHorizontalGridView"
+        android:orderInCategory="5"
+        android:title="staggeredHorizontalGridView"/>
+    <item
+        android:id="@+id/staggeredVerticalGridview"
+        android:orderInCategory="6"
+        android:title="staggeredVerticalGridview"/>
+    <item
+        android:id="@+id/staggeredAdapter"
+        android:orderInCategory="7"
+        android:title="staggeredAdapter"/>
+    <item
+        android:id="@+id/recyclerViewAdapter"
+        android:orderInCategory="8"
+        android:title="recyclerViewAdapter"/>
+
+</menu>
