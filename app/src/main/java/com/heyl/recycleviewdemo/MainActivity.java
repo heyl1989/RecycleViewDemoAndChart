@@ -1,5 +1,6 @@
 package com.heyl.recycleviewdemo;
 
+import android.content.Intent;
 import android.graphics.Rect;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -111,6 +112,10 @@ public class MainActivity extends AppCompatActivity implements MyOnItemClickLite
                 break;
             case R.id.recyclerViewAdapter:
                 mRecyclerView.setAdapter(mRecyclerViewAdapter);
+                break;
+            case R.id.chart:
+                Intent intent = new Intent(MainActivity.this,ChartViewActivity.class);
+                startActivity(intent);
                 break;
         }
         return true;

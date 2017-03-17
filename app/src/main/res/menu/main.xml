@@ -34,4 +34,9 @@
         android:orderInCategory="8"
         android:title="recyclerViewAdapter"/>
 
+    <item
+        android:id="@+id/chart"
+        android:orderInCategory="9"
+        android:title="图表"/>
+
 </menu>
